@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORMULARIO DE CONTRATACION</title>
+	<link href="C:/Users/Usuario/Documents/carlos/formulario.css" rel="stylesheet">
+	<meta chaset="UTF-8">
+</head>
+<body>
+<section id="FORMULARIO">
+<form name="FRMREGISTRO" method="POST" action="PRINCIPAL.HTML">
+<h1>FORMULARIO DE RENTA</h1>
+<label id="label">COMPLETE EL FORMULARIO CON SUS DATOS</label>
+<p id="LINEA">&NBSP;</p>
+<label id="label">NOMBRES Y APELLIDOS
+<input name="TXTNIMBRES" type="TEXT"
+id="CAJA" size="60"
+placeholder="INGRESE DATOS COMPLETOS" required/>
+</label>
+<label id="label">DNI
+	<INPUT TYPE="TEXT" ID="CAJA" NAME="TXTDNI"
+	SIZE="60" PLACEHOLDER="8 CARACTERES"/>
+</label>
+<label id="label">TELEFONO
+<input type="TEL" id="CAJA" size="60" name="TXTTELEFONO"/>
+</label>
+<label>Estudios realizados</label>
+<label id="label">
+	<input type="checkbox"
+	name="chkprimaria" checked="checked"/> primaria
+</label>
+<label id="label">
+	<input type="checkbox" name="chksecundaria"/> secundaria
+</label>
+<label id="label">
+	<input type="checkbox" name="chktecnico"/> tecnico
+</label>
+<label id="label">
+	<input type="checkbox" name="chkuniversitario"/> universitario
+</label>
+<br/>
+<label id="label">ESTADO CIVIL</label>
+<label id="label">
+	<input type="radio" name="binestado" value="S" 
+	checked="checked"/> Soltero
+</label>
+<label id="label">
+	<input type="radio" name="binestado" value="C" /> Casado
+</label>
+<label id="label">
+	<input type="radio" name="binestado" value="V" /> Viudo
+</label>
+<label id="label">
+	<input type="radio" name="binestado" value="D" /> Divorciado
+</label>
+
+<br/>
+<label id="label">PROVINCIA</label>
+<input type="text" name="txtprovincia" list="provincias"/>
+<label id="label">CORREO ELECTRONICO
+<input type="EMAIL" id="CAJA" size="60" name="TXTEMAIL"/>
+</label>
+<label id="label">CLAVE PERSONAL
+<input type="PASSWORD" id="CAJA"
+name="TXTCLAVE" size="60"
+placeholder="MAXIMO 6 CARACTERES"/>
+</label>
+<label id="label">COLOR DE PREFERENCIA
+<input type="COLOR" name="TXTCOLOR"/>
+</label>
+<label id="label">FECHA DE NACIMIENTO
+<input typ="DATETIME-LOCAL" name="TXTFECHA"/>
+</label>
+<input type="SUBMIT" value="REGISTRAR">
+<input type="RESET" value="LIMPIAR">
+</form>
+</section>
+</body>
+</html>
